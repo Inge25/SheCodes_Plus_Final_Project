@@ -1,5 +1,6 @@
 body {
   background-color: #f9f7fe;
+  font-family: Lato, sans-serif;
 }
 
 .weather-app {
@@ -9,4 +10,23 @@ body {
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.1);
   border-radius: 15px;
+}
+
+.city-search-input {
+  background-color: #f9f7fe;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 75%;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.city-search-button {
+  background: #885df1;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+  color: white;
+  font-size: 16px;
+  margin: 0 10px;
 }
