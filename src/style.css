@@ -2,7 +2,14 @@ body {
   background-color: #f9f7fe;
   font-family: Lato, sans-serif;
 }
+a {
+  color: #885df1;
+}
 
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 10px 0 35px 0;
+}
 .weather-app {
   background: white;
   max-width: 600px;
@@ -12,6 +19,10 @@ body {
   border-radius: 15px;
 }
 
+.weather-info {
+  display: flex;
+  justify-content: space-between;
+}
 .city-search-input {
   background-color: #f9f7fe;
   border: 1px solid lightgray;
@@ -29,4 +40,28 @@ body {
   color: white;
   font-size: 16px;
   margin: 0 10px;
+}
+
+.weather-city {
+  margin: 10 px 0;
+  font-size: 38px;
+  font-weight: 48px;
+}
+.weather-details {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(39, 33, 66, 0.4);
+  font-weight: 500;
+}
+
+.weather-details strong {
+  color: #f65282;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 20px 0 0 0;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
 }
