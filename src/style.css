@@ -58,6 +58,25 @@ header {
   color: #f65282;
 }
 
+.weather-visuals {
+  display: flex;
+}
+
+.weather-icon {
+  font-size: 44px;
+  margin-top: 10px;
+}
+.weather-temperature {
+  font-size: 88px;
+  font-weight: bold;
+}
+
+.weather-unit {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 footer {
   border-top: 1px solid #f9f7fe;
   padding: 20px 0 0 0;
