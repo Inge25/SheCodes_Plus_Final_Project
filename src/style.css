@@ -63,8 +63,8 @@ header {
 }
 
 .weather-icon {
-  font-size: 44px;
-  margin-top: 10px;
+  width: 100px;
+  height: 100px;
 }
 .weather-temperature {
   font-size: 88px;
