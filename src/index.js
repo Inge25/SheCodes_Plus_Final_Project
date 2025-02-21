@@ -60,4 +60,32 @@ function formatDateTime(date) {
 let searchFormElement = document.querySelector("#city-search-form");
 searchFormElement.addEventListener("submit", handleSearch);
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+  <div class="weather-forecast-day"> 
+            <div class="weather-forecast-dayOfWeek">${day}</div> 
+            <div class="weather-forecast-icon">⛅ </div> 
+            <div class="weather-forecast-temperatures"> 
+              <div class="weather-forecast-temperature">
+                <strong>17°</strong>
+              </div>
+              <div class="weather-forecast-temperature"> 
+                5°
+              </div>
+            </div>
+          </div>
+          `;
+  });
+
+  forecastElement.innerHTML = forecastHtml;
+}
+
 searchCity("Amsterdam");
+displayForecast();
