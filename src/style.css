@@ -63,7 +63,7 @@ header {
 }
 
 .weather-icon {
-  width: 100px;
+  width: 120px;
   height: 100px;
 }
 .weather-temperature {
@@ -80,7 +80,7 @@ header {
 .weather-forecast {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 30px;
+  margin: 30px 0 30px 0;
 }
 
 .weather-forecast-dayOfWeek {
@@ -92,7 +92,7 @@ header {
 
 .weather-forecast-icon {
   text-align: center;
-  font-size: 36px;
+  width: 90px;
 }
 
 .weather-forecast-temperatures {
